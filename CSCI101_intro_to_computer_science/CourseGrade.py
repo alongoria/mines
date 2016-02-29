@@ -1,0 +1,10 @@
+name = raw_input("Insert Student name: ")
+final = input("Insert Final Exam Grade: ")*.25
+II = input("Insert Exam II Grade: ")*.20
+I = input("Insert Exam I Grade: ")*.15
+prog = input("Insert Programming and Written Assignments Grade: ")*.20
+ind = input("Insert Individual Scores on LGQs: ")*.10
+g = input("Insert Group Scores on LGQs (use median group score): ")*.10
+grade = final + II + I + prog + ind + g
+print "Student =", name
+print "Course Grade =", grade, "%"

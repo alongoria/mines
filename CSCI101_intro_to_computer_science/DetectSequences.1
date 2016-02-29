@@ -1,0 +1,29 @@
+f = open("sequence-accept-4.txt", "r")
+a = 3
+epsilon =7
+i = 2
+
+baddata = f.readline()
+baddata = int(baddata)
+while baddata is not a:
+    baddata = f.readline()
+    if (baddata == ""):
+        print "BOGUS"
+        break
+    baddata = int(baddata)
+    
+escape = False
+gooddata = f.readline()
+gooddata = int(gooddata)
+while gooddata is not a or escape == True:
+    gooddata = f.readline()
+    i = i + 1
+    if escape is True:
+        escape == False
+    elif gooddata is epsilon:
+        escape == True
+print "Accept" , i
+
+
+    
+    

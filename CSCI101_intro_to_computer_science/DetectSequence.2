@@ -1,0 +1,29 @@
+f = file("sequence-accept-4.txt", "r")
+fromFile = f.readlines()
+
+nums = map(int, fromFile)
+
+foundStart = False
+foundEpsilon = False
+complete = False
+x = 0
+for num in nums:
+    if not foundStart:
+        if num == 3:
+            foundStart = True
+            x = 1
+    else:
+        x = x + 1
+        if num == 7:
+            foundEpsilon = True
+        elif num == 3:
+            if foundEpsilon:
+                foundEpsilon = False
+            else:
+                complete = True
+                break
+                
+if not complete:
+    print 'Bogus'
+else:
+    print 'Accept', x

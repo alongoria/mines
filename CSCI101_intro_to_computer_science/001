@@ -1,0 +1,9 @@
+number = input("Type number: ")
+text = raw_input("Type something else: ")
+print "number =", number
+print "number is a", type(number)
+print "number * 3 =", number * 3
+print "text =", text
+print "text is a", type(text)
+print "text * 10 =", text * 10
+

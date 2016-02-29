@@ -1,0 +1,14 @@
+if good == a:
+    good2 = f.readline()
+    if good2 == e:
+        good3 = f.readline()
+        c = c + 1
+        print c
+    if good2 == a:
+        c = c + 1
+        print c
+    else:
+        c = c + 1
+        print count
+        
+

@@ -1,0 +1,4 @@
+print "Halt!"
+user_reply = raw_input("State your name. ")
+print user_reply,",", "you are very gay!"
+print "Get away from my computer homo!"

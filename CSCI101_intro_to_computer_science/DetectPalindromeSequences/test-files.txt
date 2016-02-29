@@ -1,0 +1,9 @@
+test1.txt = this returns that the largest palindrome is a sequence because it is a sequence and the whole thing is a palendrome, and there is an a value found in the file
+
+
+
+test2.txt = this returns that the largest palindrome is not a sequence because there is no a or e value in the list
+
+
+
+test3.txt = this returns that the largest palindrome is a sequence because is starts and ends with the a value, and the e value 7 is essentially not there so that also make is a palindrome
