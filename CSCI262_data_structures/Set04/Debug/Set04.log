@@ -1,0 +1,12 @@
+﻿Build started 2/28/2014 1:26:30 AM.
+     1>Project "D:\Documents\Visual Studio 2013\Projects\Set04\Set04.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt linkedlist.cpp
+         linkedlist.cpp
+     1>d:\documents\visual studio 2013\projects\set04\linkedlist.cpp(92): error C2086: 'node *current' : redefinition
+                 d:\documents\visual studio 2013\projects\set04\linkedlist.cpp(85) : see declaration of 'current'
+     1>Done Building Project "D:\Documents\Visual Studio 2013\Projects\Set04\Set04.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.59

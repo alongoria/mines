@@ -1,0 +1,60 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <sstream>
+
+using namespace std;
+
+
+int which_order(string ingredients[], size_t icount,
+				string orders[], size_t ocount) {
+	// fill in code here
+
+	for (int i = 0; i < 3; i++) {
+		string temp = orders[i];
+		istringstream in(temp);
+		int match_count = 0;
+		int count = 0;
+		while (!in.eof()) {
+			string foo;
+			in >> foo;
+			cout << "current order ingredient is " << foo << endl;
+			if (foo == ingredients[i]) {
+				match_count++;
+				cout << foo << " and " << ingredients[i] << " match" << endl;
+			}
+			
+			count++;
+			//break;
+		}
+
+	}
+
+
+	return 0;
+
+}
+
+int main() {
+	string ingredients[] = { "cheese", "mustard", "lettuce" };
+	string want[] = { "cheese ham", "cheese mustard lettuce", "ketchup", "beer" };
+	string temp = want[0];
+	istringstream in(temp);
+	/*
+	while (!in.eof()) {
+		string foo;
+		in >> foo;
+		cout << foo << endl;
+	}
+	*/
+	which_order(ingredients, 3, want, 4);
+
+	/*
+	for (int i = 0; i < 6; i++) {
+		cout << want[i] << endl;
+
+	}
+	*/
+	system("pause");
+	return 0;
+}

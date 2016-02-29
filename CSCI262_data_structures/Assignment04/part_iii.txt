@@ -1,0 +1,70 @@
+PART III - write-up
+
+Performance times
+
+method	size	time	order
+brute	100	   0.257	5
+brute	200    0.522	5
+brute	400	   1.009	5
+brute	800	   2.011	5
+brute	1600   3.814	5
+map	    100	  13.398	5
+map	    200	  13.616	5
+map	    400	  13.481	5
+map	    800	  13.748	5
+map	    1600  13.063	5
+umap	100	   7.506	5
+umap	200	   7.475	5
+umap	400	   7.483	5
+umap	800	   7.811	5
+umap	1600   7.313	5
+word	100	   4.452	5
+word	200	   4.478	5
+word	400	   4.742	5
+word	800	   5.363	5
+word	1600   5.707	5
+
+
+1) 
+	I predict the time should be porportionally faster or slower.
+	Times are dependent on the amout of text to be generated and the 
+	order of the key to use, therefore should be semi linear in slope.
+
+	brute	5000	79.511	1
+	brute	5000	11.592	10
+	map	    5000	10.267	1
+	map	    5000	15.357	10
+	umap	5000	7.411	1
+	umap	5000	10.117	10
+	word	5000	28.702	1
+	word	5000	9.239	10
+
+	After testing it was found that my prediction was incorrect. Brute 
+	force gets faster as the order goes up; same with word. This is 
+	because when the key value is greater there are less iterations 
+	to be made. Map and unsorted map stayed about constant, but umap
+	was faster. The unsorted map is faster to navigate due to the 
+	items being in order of the text and not the alphabet. 
+
+2) 
+	My predictions are that the time it takes to generare random text
+	is almost indepentant on the size of the file, but as proven, the
+	order and the amount of text to be generated.
+
+	brute	1000	69.877	5	king james
+    brute	1000	0.507	5	obama
+    map	    1000	436.491	5	king james
+    map 	1000	2.393	5	obama
+    umap	1000	198.423	5	king james
+    umap	1000	1.49	5	obama
+    word	1000	146.421	5	king james
+    word	1000	n/a	    5	obama
+
+	After testing it was found that my prediction was incorrect. On
+	every case, using the smaller file resulted in smaller times. From 
+	my understanding of the results, the size of the file does matter
+	quite a bit. The size of the file determines the amount of keys
+	neccesary and how big the map will be; the size of the keys, 
+	order-1 or order-10 is smaller than the overall size of the files. 
+
+	

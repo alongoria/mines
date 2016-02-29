@@ -1,0 +1,28 @@
+﻿Build started 3/26/2014 6:31:12 PM.
+     1>Project "D:\Documents\Visual Studio 2013\Projects\Set05\Set05.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt nesting.cpp ratroute.cpp wordladder.cpp
+         wordladder.cpp
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\wordladder.cpp(75): warning C4018: '<' : signed/unsigned mismatch
+         ratroute.cpp
+         nesting.cpp
+     1>d:\documents\visual studio 2013\projects\set05\nesting.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\set05\nesting.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2013\Projects\Set05\Debug\Set05.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2013\Projects\Set05\Debug\Set05.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2013\Projects\Set05\Debug\Set05.lib" /MACHINE:X86 Debug\mazes.obj
+         Debug\nesting.obj
+         Debug\ratroute.obj
+         Debug\tourney.obj
+         Debug\wordladder.obj
+         Set05.vcxproj -> D:\Documents\Visual Studio 2013\Projects\Set05\Debug\Set05.exe
+     1>Done Building Project "D:\Documents\Visual Studio 2013\Projects\Set05\Set05.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58
