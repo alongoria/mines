@@ -1,0 +1,9 @@
+PROGRAM HW5
+
+	INTEGER :: i
+	CHARCTER(len=20) :: fmt
+	fmt =  "('1','i=',I6.5)"
+	i = -123
+	WRITE(*,fmt) i
+
+END PROGRAM HW5
