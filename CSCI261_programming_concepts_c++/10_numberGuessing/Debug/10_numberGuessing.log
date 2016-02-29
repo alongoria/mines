@@ -1,0 +1,20 @@
+﻿Build started 9/23/2011 8:22:41 PM.
+     1>Project "I:\CSCI 261\apps\homework\10_numberGuessing\10_numberGuessing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\10_numberGuessing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\10_numberGuessing.unsuccessfulbuild".
+         Touching "Debug\10_numberGuessing.lastbuildstate".
+     1>Done Building Project "I:\CSCI 261\apps\homework\10_numberGuessing\10_numberGuessing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.64

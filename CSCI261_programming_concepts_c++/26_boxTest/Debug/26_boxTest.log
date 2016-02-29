@@ -1,0 +1,33 @@
+﻿Build started 11/7/2011 1:45:24 PM.
+     1>Project "G:\CSCI 261\apps\homework\26_boxTest\26_boxTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\26_boxTest.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\box.cpp src\test.cpp
+         test.cpp
+         box.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\26_boxTest.exe.embed.manifest.res" Debug\26_boxTest_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\26_boxTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.lib" /MACHINE:X86 Debug\26_boxTest.exe.embed.manifest.res
+         Debug\box.obj
+         Debug\main.obj
+         Debug\test.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\26_boxTest.exe.embed.manifest" /manifest Debug\26_boxTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\26_boxTest.exe.embed.manifest.res" Debug\26_boxTest_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\26_boxTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.lib" /MACHINE:X86 Debug\26_boxTest.exe.embed.manifest.res
+         Debug\box.obj
+         Debug\main.obj
+         Debug\test.obj
+         26_boxTest.vcxproj -> G:\CSCI 261\apps\homework\26_boxTest\Debug\26_boxTest.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\26_boxTest.unsuccessfulbuild".
+         Touching "Debug\26_boxTest.lastbuildstate".
+     1>Done Building Project "G:\CSCI 261\apps\homework\26_boxTest\26_boxTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.73

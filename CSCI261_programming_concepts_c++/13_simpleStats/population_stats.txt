@@ -1,0 +1,5 @@
+Population statistics of America's 275 cities.
+Statistic	 Average	 Min	 Max	 Range
+Population	 306696		100097	8175133	8075036
+Land Area	 99.5851	6.4	1704.7	1698.3
+Density		 4151.06	171.2	27016.3	26845.1

@@ -1,0 +1,45 @@
+﻿Build started 11/4/2013 11:27:58 PM.
+     1>Project "D:\School\CSCI 261 - Programing Concepts C++\apps\homework\17_robotArmy\17_robotArmy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\testApp.cpp
+         testApp.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\17_robotArmy_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 openframeworksLibDebug.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmtd.lib PocoNetmtd.lib PocoUtilmtd.lib PocoXMLmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\School\CSCI 261 - Programing Concepts C++\apps\homework\17_robotArmy\bin\17_robotArmy_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\17_robotArmy_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\main.obj
+         obj\Debug\testApp.obj
+         "D:\School\CSCI 261 - Programing Concepts C++\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib"
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>rtAudioD.lib(rtAudio.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>rtAudioD.lib(rtAudio.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>qtmlClient.lib(WindowsShim.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(ClientToolboxAPI.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(MoreMathShim.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(MoviesWin32Glue.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(MediaHandlersShim.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(QTLoadLibraryUtils.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>qtmlClient.lib(ThingWin32Glue.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>PocoFoundationmtd.lib(Bugcheck.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Exception.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Mutex.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Debugger.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Timestamp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(UnicodeConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(UTF8Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(TextIterator.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(UTF16Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(TextConverter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(TextEncoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(RWLock.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(AtomicCounter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Windows1252Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Latin9Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(Latin1Encoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>PocoFoundationmtd.lib(ASCIIEncoding.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1800' in main.obj
+     1>bin\17_robotArmy_debug.exe : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "D:\School\CSCI 261 - Programing Concepts C++\apps\homework\17_robotArmy\17_robotArmy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.09

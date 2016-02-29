@@ -1,0 +1,20 @@
+﻿Build started 10/14/2011 5:43:29 PM.
+     1>Project "G:\CSCI 261\apps\homework\09_bottles\09_bottles.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\09_bottles.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\09_bottles.unsuccessfulbuild".
+         Touching "Debug\09_bottles.lastbuildstate".
+     1>Done Building Project "G:\CSCI 261\apps\homework\09_bottles\09_bottles.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

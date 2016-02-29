@@ -1,0 +1,20 @@
+﻿Build started 10/14/2011 5:46:16 PM.
+     1>Project "G:\CSCI 261\apps\homework\06_asciiExploration\06_asciiExploration.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\06_asciiExploration.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\06_asciiExploration.unsuccessfulbuild".
+         Touching "Debug\06_asciiExploration.lastbuildstate".
+     1>Done Building Project "G:\CSCI 261\apps\homework\06_asciiExploration\06_asciiExploration.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41
